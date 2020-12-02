@@ -4,7 +4,7 @@ class CreateApartments < ActiveRecord::Migration[6.0]
       t.string :name
       t.text :description
       t.string :city
-      t.interger :price
+      t.integer :price
 
       t.timestamps
     end
